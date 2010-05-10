@@ -9,3 +9,4 @@ tmp/sakila-db/sakila.mwb
 [.]tar[.]gz$
 schema[.](pdf|architect)
 Makefile.old
+DBH[.]pod

@@ -3,7 +3,7 @@ package DBIx::Cookbook;
 use warnings;
 use strict;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 
 =head1 NAME
@@ -30,13 +30,18 @@ want to contribute more code, see L</CONTRIBUTING>.
 
 =head2 Schema
 
+=for html <img src=http://dev.mysql.com/doc/sakila/en/images/sakila-schema.png>
+
 To get a feel for the Sakila database, refer to the 
 L<structure
 section|http://dev.mysql.com/doc/sakila/en/sakila.html#sakila-structure>
-of their website. This section has a graphical database schema which
-is fairly useful when any complex joins are done in any of the
-examples.
+of the MySQL Sakila website. This section has a graphical database
+schema which is fairly useful when any complex joins are done in any
+of the examples.
 
+Another option is to look at the DBIx::Class Result classes, since
+they have good pod documentation. Starting with 
+L<DBIx::Cookbook::DBIC::Sakila::Result::Actor> is a good idea.
 
 =head1 RECIPES
 
@@ -199,6 +204,14 @@ Matthew Trout:
 
 Writing all the docs for this would have been much harder to review and
 debug without John Beppu's L<Pod::Server.>
+
+=head3 perlmonks
+
+bingos helped out quite a bit with L<Module::Install> in
+L<this thread|http://perlmonks.org/?node_id=834658>
+and
+L<this thread|http://perlmonks.org/?node_id=838941>
+
 
 =head1 Support, source code, etc 
 

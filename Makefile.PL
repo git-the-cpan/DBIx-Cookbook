@@ -5,14 +5,12 @@ all_from 'lib/DBIx/Cookbook.pm';
 author   q{Terrence Brannon <metaperl@gmail.com>};
 license  'perl';
 
-author_tests('xt');
-
 build_requires 'Test::More';
 
 requires 'autodie';
 requires 'App::Cmd';
 requires 'DBI';
-requires 'DBIx::DBH';
+requires 'DBIx::DBH' => '0.04';
 requires 'File::Slurp';
 requires 'Moose';
 requires 'MooseX::App::Cmd';
