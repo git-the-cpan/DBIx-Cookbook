@@ -1,0 +1,33 @@
+---
+abstract: 'executable cookbook code for DBI(-based ORMs)?'
+author:
+  - 'Terrence Brannon, C<< <metaperl at gmail.com> >>'
+  - 'Terrence Brannon <metaperl@gmail.com>'
+build_requires:
+  ExtUtils::MakeMaker: 6.42
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.42
+distribution_type: module
+generated_by: 'Module::Install version 0.95'
+license: xt
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: DBIx-Cookbook
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  App::Cmd: 0
+  DBI: 0
+  DBIx::DBH: 0
+  File::Slurp: 0
+  Moose: 0
+  MooseX::App::Cmd: 0
+  Template: 0
+  autodie: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.03

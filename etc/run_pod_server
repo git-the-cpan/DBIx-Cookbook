@@ -1,0 +1,10 @@
+# presumes invokved from $DIST as ./etc/run_pod_server
+
+source ./config.bashrc
+
+git pull
+
+killall pod_server
+
+pod_server
+

@@ -1,0 +1,11 @@
+^Makefile$
+tmp/sakila-db.zip
+tmp/sakila-db/sakila-data.sql
+tmp/sakila-db/sakila-schema.sql
+tmp/sakila-db/sakila.mwb
+.*~.*
+[.]git[/].*
+^inc[/].+
+[.]tar[.]gz$
+schema[.](pdf|architect)
+Makefile.old
