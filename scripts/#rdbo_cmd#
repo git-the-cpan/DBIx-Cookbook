@@ -2,21 +2,22 @@
 
 use FindBin qw($Bin);
 use lib "$Bin/../lib";
-use lib "$Bin/../lib/DBIx/Cookbook/Skinny";
+use lib "$Bin/../lib/DBIx/Cookbook/RDBO";
 
-use DBIx::Cookbook::Skinny;
-my $app = DBIx::Cookbook::Skinny;
+
+use DBIx::Cookbook::RDBO;
+my $app = DBIx::Cookbook::RDBO;
 
 $app->run;
 
 
 =head1 NAME
 
-skinny_cmd - run DBIx::Skinny cookbook examples
+rdbo_cmd - run Rose::DB::Object cookbook examples
 
 =head1 SYNOPSIS
 
-  ./scripts/skinny_cmd fetch_all
+  ./scripts/rdbo_cmd subquery
 
 =head1 DESCRIPTION
 
