@@ -3,7 +3,7 @@ package DBIx::Cookbook;
 use warnings;
 use strict;
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 
 =head1 NAME
@@ -232,7 +232,7 @@ You can find documentation for this module with the perldoc command.
 
 =head2 Source Code Repo
 
-   git clone http://github.com/metaperl/dbix-cookbook.git
+ L<https://github.com/metaperl/dbix-cookbook>
 
 
 =head2 Known bug in search.cpan.org
